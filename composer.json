@@ -1,0 +1,21 @@
+{
+    "name": "prmd/yii2-prmdhello",
+    "description": "Hello World extension ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pramod",
+            "email": "pramod.k@innovify.in"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\prmd\\prmdhello\\": ""
+        }
+    }
+}
