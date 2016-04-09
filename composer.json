@@ -1,7 +1,7 @@
 {
-    "name": "prmd/yii2-prmdhello",
+    "name": "prmd/prmdhello",
     "description": "Hello World extension ",
-    "type": "yii2-extension",
+    "type": "yii2extension",
     "keywords": ["yii2","extension"],
     "license": "MIT",
     "authors": [
@@ -18,4 +18,10 @@
             "\\prmd\\prmdhello\\": ""
         }
     }
+    ,"repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/pramodk1/Hello.git"
+        }
+    ]
 }
